@@ -8,30 +8,30 @@ import fetch from 'node-fetch'
 const { generateWAMessageFromContent, proto } = (await import('@adiwajshing/baileys')).default
 
 const defaultMenu = {
-  before: `╔┈┈「 *Info User* 」
-╎❏ *Nama:*  %name 
-╎❏ *Nomor:* %tag
-╎❏︎ *Premium:* %prems
-╎❏︎ *Limit:* %limit
-╎❏︎ *Money:* %money
-╎❏ *Role:* %role
-╎❏︎ *Level:* %level
-╎❏︎ *Xp:* %exp / %maxexp
-╎❏︎ *Total Xp:* %totalexp
-╠┈┈「 *Info Hari* 」
-╎❏ *Waktu:* %wib
-╎❏ *Hari:* %week %weton
-╎❏ *Tanggal:* %date
-╎❏ *Tanggal Islam:* %dateIslamic
-╠┈┈「 *Info Bot* 」
-╎❏ *Bot Name:* %me
-╎❏ *Mode:* %mode
-╎❏ *Platform:* %platform
-╎❏ *Type:* Node.Js
-╎❏ *Baileys:* Multi Device
-╎❏ *Prefix:* [ *%_p* ]
-╎❏ *Uptime:* %muptime
-╎❏ *Database:* %rtotalreg dari %totalreg
+  before: `╔┈┈「 *Informações do Usuário* 」
+╎❏ *Nome:*  %name
+╎❏ *Número:* %tag
+╎❏ *Premium:* %prems
+╎❏ *Limite:* %limit
+╎❏ *Dinheiro:* %money
+╎❏ *Cargo:* %role
+╎❏ *Nível:* %level
+╎❏ *XP:* %exp / %maxexp
+╎❏ *XP Total:* %totalexp
+╠┈┈「 *Informações do Dia* 」
+╎❏ *Horário:* %wib
+╎❏ *Dia:* %week %weton
+╎❏ *Data:* %date
+╎❏ *Data Islâmica:* %dateIslamic
+╠┈┈「 *Informações do Bot* 」
+╎❏ *Nome do Bot:* %me
+╎❏ *Modo:* %mode
+╎❏ *Plataforma:* %platform
+╎❏ *Tipo:* Node.Js
+╎❏ *Baileys:* Multi Dispositivo
+╎❏ *Prefixo:* [ *%_p* ]
+╎❏ *Tempo de Atividade:* %muptime
+╎❏ *Banco de Dados:* %rtotalreg de %totalreg
 ╚┈┈┈┈┈┈┈┈┈❖
 %readmore
 `.trimStart(),
